@@ -44,7 +44,7 @@ const Resume = () => {
                   January 2022 - Present
                 </span>
                 <div >
-                  <h4>Key Accomplishments:</h4>
+                  <h4>Key Accomplishmentsssss:</h4>
                   <ul>
                     <li>
                       🚀 Collaborated with cross-functional teams to design and implement front-end solutions using React.js.
