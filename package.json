@@ -6,7 +6,7 @@
   "homepage": "https://zeeshan0007.github.io/portfolio",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist --repo=https://github.com/zeeshan0007/portfolio.git",
+    "deploy": "gh-pages -d dist --repo=https://github.com-portfolio/zeeshan0007/portfolio.git",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
