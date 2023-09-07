@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://zeeshan0007.github.io/portfolio",
+  "homepage": "https://github.com-portfolio:zeeshan0007/portfolio.git",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist --repo=git@github.com-portfolio:zeeshan0007/portfolio.git",
