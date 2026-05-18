@@ -1,4 +1,5 @@
 import type { Metadata, Viewport } from 'next';
+import { Analytics } from '@vercel/analytics/next';
 import './globals.css';
 
 export const metadata: Metadata = {
@@ -38,6 +39,7 @@ export default function RootLayout({
         <main className="max-w-[880px] mx-auto px-5 py-10 sm:px-6">
           {children}
         </main>
+        <Analytics />
       </body>
     </html>
   );
