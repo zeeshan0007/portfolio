@@ -15,7 +15,7 @@ export default function Footer() {
             [GitHub]
           </a>
           <a
-            href="https://www.linkedin.com/in/web-application-developer-react-js-expert/"
+            href="https://www.linkedin.com/in/zeshan-mern-developer/"
             className="no-underline"
             target="_blank"
             rel="noopener noreferrer"

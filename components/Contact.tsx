@@ -15,8 +15,8 @@ export default function Contact() {
     {
       id: 'linkedin',
       title: 'LinkedIn',
-      value: 'linkedin.com/in/muhammadzeshan',
-      href: 'https://www.linkedin.com/in/web-application-developer-react-js-expert/',
+      value: 'linkedin.com/in/zeshan-mern-developer',
+      href: 'https://www.linkedin.com/in/zeshan-mern-developer/',
     },
     {
       id: 'location',
