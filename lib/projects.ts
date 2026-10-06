@@ -1,3 +1,5 @@
+import { recentProjects } from './recentProjects';
+
 export interface Project {
   id: string;
   title: string;
@@ -9,14 +11,14 @@ export interface Project {
   techStack: string[];
   highlights: string[];
   metrics: string[];
-  timeline: string;
+  timeline?: string;
   url?: string;
   image?: string;
   images?: string[];
   status: 'live' | 'archived' | 'ongoing';
 }
 
-export const projects: Project[] = [
+const earlierProjects: Project[] = [
   {
     id: 'testfiesta',
     title: 'TestFiesta',
@@ -84,7 +86,7 @@ export const projects: Project[] = [
       'Workflow automation for rescheduling and cancellations',
       'Medication refill tracking and adherence monitoring',
     ],
-    techStack: ['Node.js', 'JavaScript', 'TypeScript','Nest.js'],
+    techStack: ['Node.js', 'TypeScript', 'NestJS'],
     highlights: [
       'Automated appointment lifecycle replacing manual scheduling',
       'Third-party calendar and Zoom integrations for virtual care',
@@ -96,7 +98,7 @@ export const projects: Project[] = [
       'Reduced missed appointments through automated reminders',
       'Surfaced adherence issues before patients fell behind',
     ],
-    timeline: '2 year (ongoing)',
+    timeline: '2 years (ongoing)',
     url: 'https://www.millenniummedicalassociates.com',
     image: '/assets/mma1.png',
     images: ['/assets/mma1.png', '/assets/mma2.png'],
@@ -306,6 +308,8 @@ export const projects: Project[] = [
     status: 'live',
   },
 ];
+
+export const projects: Project[] = [...recentProjects, ...earlierProjects];
 
 export function getProjectById(id: string): Project | undefined {
   return projects.find((p) => p.id === id);

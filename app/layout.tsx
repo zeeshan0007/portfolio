@@ -5,7 +5,7 @@ import './globals.css';
 export const metadata: Metadata = {
   title: 'Muhammad Zeshan | Full-Stack Engineer',
   description:
-    'Full-stack engineer with 3+ years experience in scalable systems, real-time architecture, and AI integration. React, Next.js, Node.js, TypeScript.',
+    'Full-stack engineer with 4+ years of experience in scalable systems, data pipelines, ecommerce, and AI agent evaluation. React, Next.js, Node.js, TypeScript.',
   keywords: [
     'full-stack engineer',
     'React',
@@ -15,6 +15,9 @@ export const metadata: Metadata = {
     'real-time systems',
     'GraphQL',
     'healthcare tech',
+    'web scraping',
+    'AI evaluation',
+    'n8n',
   ],
   authors: [{ name: 'Muhammad Zeshan' }],
 };

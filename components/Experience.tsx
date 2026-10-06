@@ -4,15 +4,27 @@ import { useState } from 'react';
 
 const experiences = [
   {
+    role: 'Contract Engineer, AI Agent Evaluation',
+    company: 'Turing',
+    period: '2026 – Present',
+    highlights: [
+      'Design full-stack web-app tasks that test whether AI coding agents can build real, rule-enforcing apps',
+      'Write LLM-judge rubrics that grade server-side enforcement by replaying recorded requests as other users',
+      'Calibrated one task from about 98% to about 42% model score while the reference solution stayed at 100%',
+      'Built the QC tooling: runtime-faithful launcher, static rule linter, deterministic packaging, and a multi-agent review loop',
+    ],
+  },
+  {
     role: 'Senior Full-Stack Engineer',
     company: 'PieCyfer',
     period: '2022 – Present',
     highlights: [
-      'Built and shipped 8 production projects across healthcare, SaaS, and real-time systems',
+      'Shipped production projects across healthcare, SaaS, ecommerce, real estate, and real-time systems',
       "Took a hospital's equipment-tracking system from sluggish to roughly 40% faster (DistrictCSA)",
       'Built a real-time multiplayer game that teaches Agile by playing it (Fireball)',
       'Built a telehealth scheduling and practice-management system for an ADHD clinic (Millennium Medical)',
       'Added LLM-powered test case generation to a QA platform (TestFiesta)',
+      'Led backend engineering on a county-records lead platform for real-estate investors, with scrapers across ten states',
       'Worked end to end on every project — database, API, real-time sync, and UI',
     ],
   },
@@ -29,7 +41,16 @@ const skills = [
   'MongoDB',
   'Firebase',
   'Socket.io',
+  'Python',
+  'Prisma',
+  'Stripe',
+  'n8n',
+  'Web Scraping',
+  'Playwright',
+  'Docker',
+  'Vercel',
   'AI',
+  'LLM Evaluation',
   'AWS',
   'Google Cloud',
 ];

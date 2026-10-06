@@ -31,9 +31,11 @@ export default function ProjectCard({ project }: { project: Project }) {
       <div className="p-4">
         <div className="flex items-baseline justify-between gap-2 mb-2">
           <h3>{project.title}</h3>
-          <span className="text-meta muted shrink-0 whitespace-nowrap">
-            {project.timeline}
-          </span>
+          {project.timeline && (
+            <span className="text-meta muted shrink-0 whitespace-nowrap">
+              {project.timeline}
+            </span>
+          )}
         </div>
         <p className="text-meta muted">{project.impact}</p>
       </div>

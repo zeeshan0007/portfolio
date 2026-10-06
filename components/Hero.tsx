@@ -13,7 +13,8 @@ export default function Hero() {
 
       <p className="mt-6">
         I&apos;m a full-stack engineer. For the past four years I&apos;ve built
-        web apps for healthcare clinics, SaaS startups, and real-time platforms.
+        web apps for healthcare clinics, SaaS startups, real-estate investors,
+        online stores, and AI model evaluation.
         I usually handle the whole thing myself: the database, the API, and the
         interface people actually use.
       </p>

@@ -42,7 +42,9 @@ export default function ProjectPage({ params }: { params: { slug: string } }) {
         </p>
         <h1 className="mt-4">{project.title}</h1>
         <p className="muted mt-1">{project.subtitle}</p>
-        <p className="muted text-meta mt-1">{project.timeline}</p>
+        {project.timeline && (
+          <p className="muted text-meta mt-1">{project.timeline}</p>
+        )}
         <p className="mt-4 border-l-2 border-line pl-4">{project.impact}</p>
         {project.url && (
           <a
