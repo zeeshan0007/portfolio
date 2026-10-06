@@ -3,6 +3,7 @@ import { Analytics } from '@vercel/analytics/next';
 import './globals.css';
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://www.zeshan.store'),
   title: 'Muhammad Zeshan | Full-Stack Engineer',
   description:
     'Full-stack engineer with 4+ years of experience in scalable systems, data pipelines, ecommerce, and AI agent evaluation. React, Next.js, Node.js, TypeScript.',
